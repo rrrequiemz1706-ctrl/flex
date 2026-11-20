@@ -1,0 +1,121 @@
+html, body{
+    height: 100%;
+    color: #f8fafc;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0f172a;
+}
+.container{
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    height: auto !important;
+    width: 1200px;
+    margin: 0 auto;
+}
+header,footer{
+    background-color: rgba(43, 94, 235, 0.993);
+}
+main{
+    background-color: rgb(3, 96, 128);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    width: 200px;
+    background-color: #334155;
+}
+.logo img{
+   width: 30px;
+}
+.menu div{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}
+.logo h1{
+    font-size: 20px;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 20px ;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+footer img{
+    width:40px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.content {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 20px;
+gap: 20px;
+width: 100%;
+}
+.card {
+background-color: #334155;
+width: 30%;
+padding: 20px;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.card h1 {
+margin-top: 0;
+font-size: 16px;
+}
+.card img {
+width: 150px;
+margin: 10px 0;
+}
+.card p {
+font-size: 14px;
+text-align: left;
+margin-bottom: 20px;
+}
+.card button {
+margin-top: auto;
+display: flex;
+align-items: center;
+gap: 10px;
+padding: 6px 18px;
+cursor: pointer;
+}
+
+.card button img {
+width: 16px;
+background-color: #38bdf8;
+}
+aside a{
+    color: #f8fafc;
+}
+.content a{
+    color: #f8fafc;
+}
+li{
+    list-style: none;
+}
